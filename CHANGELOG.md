@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1 — 2026-10-27
+
+- **Deprecated.** This collection moved to `git_cgallagher.isc`, with the same
+  roles and variables under a new name. No further releases.
+
 ## 1.0.0 — 2026-10-27
 
 First release of `git_cgallagher.stork`. Kea is out of scope: pair it with

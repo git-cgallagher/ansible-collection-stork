@@ -1,4 +1,24 @@
-# git_cgallagher.stork
+# git_cgallagher.stork — DEPRECATED
+
+> **This collection moved to [`git_cgallagher.isc`](https://galaxy.ansible.com/ui/repo/published/git_cgallagher/isc/)**
+> ([source](https://github.com/git-cgallagher/ansible-collection-isc)), which holds the same
+> Stork roles plus the Kea DHCP role. Variables and behaviour are unchanged; only the
+> collection name moves:
+>
+> ```bash
+> ansible-galaxy collection install git_cgallagher.isc
+> ```
+>
+> | Before | After |
+> |---|---|
+> | `git_cgallagher.stork.stork_server` | `git_cgallagher.isc.stork_server` |
+> | `git_cgallagher.stork.stork_agent` | `git_cgallagher.isc.stork_agent` |
+> | `git_cgallagher.stork.stork_repository` | `git_cgallagher.isc.stork_repository` |
+>
+> `git_cgallagher.stork` gets no further releases. This repository is archived.
+
+<details><summary>Original README (1.0.0)</summary>
+
 
 [![ansible-test](https://github.com/git-cgallagher/ansible-collection-stork/actions/workflows/ansible-test.yml/badge.svg)](https://github.com/git-cgallagher/ansible-collection-stork/actions/workflows/ansible-test.yml)
 
@@ -160,3 +180,5 @@ See [CHANGELOG.md](CHANGELOG.md).
 ## Licensing
 
 MIT. See [LICENSE](LICENSE).
+
+</details>
